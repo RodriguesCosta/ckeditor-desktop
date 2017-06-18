@@ -1,6 +1,26 @@
 {
-    "name": "CKEditor Electron",
-    "version": "0.1.0",
-    "description": "A simple text editor using CKEditor and Electron, basic and no option to save anything, maybe I can add more options over time.",
-    "main": "main.js"
+  "name": "ckeditor-desktop",
+  "version": "1.0.0",
+  "description": "A simple text editor using CKEditor and Electron.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriguesCosta/ckeditor-desktop.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "electron"
+  ],
+  "author": "Rodrigues Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodriguesCosta/ckeditor-desktop/issues"
+  },
+  "homepage": "https://github.com/RodriguesCosta/ckeditor-desktop#readme",
+  "dependencies": {
+    "ckeditor": "^4.7.0"
+  }
 }
